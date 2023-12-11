@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  web:
+    restart: always
+    build:
+      context: .
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"

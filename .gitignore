@@ -1,0 +1,4 @@
+solutions/*/target
+.shuttle-storage
+Secrets*.toml
+.idea
